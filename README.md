@@ -59,6 +59,15 @@ npm install
 
 To configure your new IDE server, continue reading [here](https://github.com/ajaxorg/cloud9/).
 
+#### Setup User Authentication
+
+For this project, I decided to use the simple command line below:
+```
+/usr/bin/cloud9/bin/cloud9.sh --username leuser --password c9isawesome
+```
+> You can find out more info about setting up auth for c9 at their github page here: https://github.com/ajaxorg/cloud9/
+
+
 #### Setup cloud9 as a service
 
 If you want cloud9 to start when your machine boots up, as well as operate it by using `service c9ide start/stop` then run the following commands (as root)
@@ -88,13 +97,6 @@ service c9ide start
 You should now be able to login directly with browser (localhost:80, or wherever you isntalled it!)
 
 
-#### Setup Authentication
-
-For this project, I decided to use the simple command line below:
-```
-/usr/bin/cloud9/bin/cloud9.sh --username leuser --password c9isawesome
-```
-> You can find out more info about setting up auth for c9 at their github page here: https://github.com/ajaxorg/cloud9/
 
 
 

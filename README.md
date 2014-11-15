@@ -10,7 +10,7 @@ c9 ide is going to need quite a few things to run, so let's make sure we get the
 
 If you don't feel like doing all of this yourself, you can run the following commandbelow: (as sudo) 
 
-`curl -L https://raw.githubusercontent.com/MattMcFarland/cloud9-googlevm/master/kickstart.sh | sudo bash -e`
+`curl -L https://raw.githubusercontent.com/MattMcFarland/cloud9-gvm/master/kickstart.sh | sudo bash`
 
 ## Guide
 

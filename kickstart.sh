@@ -31,9 +31,9 @@ curl http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz > ruby-2.1.4.tar.
 ./configure && make && make install
 
 # Setup Cloud 9 Service:
-curl -o /etc/init.d/c9ide https://raw.githubusercontent.com/MattMcFarland/cloud9-gvm/master/c9ide
-chmod 755 /etc/init.d/c9ide
-sudo update-rc.d c9ide defaults
+curl -o /etc/init.d/cloud9 https://raw.githubusercontent.com/MattMcFarland/cloud9-gvm/master/cloud9
+chmod 755 /etc/init.d/cloud9
+sudo update-rc.d cloud9 defaults
 
 curl -o /etc/c9start.sh https://raw.githubusercontent.com/MattMcFarland/cloud9-gvm/master/c9start.sh
 chmod +x /etc/c9start.sh

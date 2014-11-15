@@ -17,8 +17,6 @@ Or take a look under the hood:
 # backports-debian-7-wheezy-v20141108
 #
 #
-echo off
-echo Let us hope you are running in sudo :)
 
 sudo su
 
@@ -37,6 +35,8 @@ curl -fsSL https://gist.github.com/shime/5706655/raw/install.sh | sudo bash -e
 # Install Ruby
 curl http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz > ruby-2.1.4.tar.gz && tar -xzvf ruby-2.1.4.tar.gz && cd ruby-2.1.4
 ./configure && make && make install
+
+exit
 
 
 ```

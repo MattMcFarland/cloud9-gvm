@@ -14,8 +14,7 @@
 case "$1" in
   start)
     echo "Starting c9ide "
-    
-    sh /usr/bin/cloud9/bin/cloud9.sh -l 0.0.0.0 -p 80
+    sh /usr/bin/cloud9/bin/cloud9.sh -l 0.0.0.0 -p 80 </dev/null >/var/log/cloud-9.log 2>&1 &
 
     ;;
   stop)

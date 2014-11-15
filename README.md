@@ -6,7 +6,7 @@ Bootstrap your GVM Instance with Node, tmux, ruby, and compiler tools
 run (as root)
 
 ```
-curl -L https://raw.githubusercontent.com/MattMcFarland/google-wheezy-node-ruby-tmux/master/install.sh | bash
+curl -L https://raw.githubusercontent.com/MattMcFarland/google-wheezy-node-ruby-tmux/master/gwn.sh | bash
 ```
 
 Or take a look under the hood:

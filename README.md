@@ -1,7 +1,6 @@
-google-wheezy-node-ruby-tmux
-============================
+# Bootstrap your GVM Instance with Node, tmux, ruby, and compiler tools
 
-Bootstrap your GVM Instance with Node, tmux, ruby, and compiler tools
+
 
 run (as root)
 

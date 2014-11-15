@@ -1,6 +1,6 @@
 # Bootstrap your GVM Instance with Node, tmux, ruby, and compiler tools
 
-
+If you're working with Node and Ruby, and maybe even cloud9-ide - Fire up a Google Virtual Machine from their Compute Engine and you'll find a barebones install lacking some essential items, this tiny script fixes that.  
 
 run (as root)
 

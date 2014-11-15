@@ -1,13 +1,14 @@
 # Kickstart your very own cloud9 IDE
-## in the cloud.. ;)
+In the cloud!
 
-Using Google Cloud COmpute Engine, you can easily jumpstart a linux-based virtual machine.  To make things interesting, I decided to make one that hosts my own private IDE with a simple script.
+Using Google Cloud Compute Engine, you can easily jumpstart a linux-based virtual machine.  To make things interesting, I decided to make one that hosts my own private IDE with a simple script.
 
 This is running on backports-debian-7-wheezy-v20141108 - the default VM as of the time this was written.
 c9 ide is going to need quite a few things to run, so let's make sure we get them.
 
 If you don't feel like doing all of this yourself, you can run the following commandbelow: (as sudo) 
 
+`curl -L https://raw.githubusercontent.com/MattMcFarland/cloud9-googlevm/master/kickstart.sh | sudo bash -e`
 
 The rest of this guide assumes **sudo**
 

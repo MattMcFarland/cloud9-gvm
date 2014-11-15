@@ -70,28 +70,28 @@ For this project, I decided to use the simple command line below:
 
 #### Setup cloud9 as a service
 
-If you want cloud9 to start when your machine boots up, as well as operate it by using `service c9ide start/stop` then run the following commands (as root)
+If you want cloud9 to start when your machine boots up, as well as operate it by using `service cloud9 start/stop` then run the following commands (as root)
 
 ```
-curl -o /etc/init.d/c9ide https://raw.githubusercontent.com/MattMcFarland/cloud9-gvm/master/c9ide
+curl -o /etc/init.d/cloud9 https://raw.githubusercontent.com/MattMcFarland/cloud9-gvm/master/cloud9
 ```
 
 The next thing to do is make sure the service is executable so it can run:
 
 ```
-chmod 755 /etc/init.d/c9ide
+chmod 755 /etc/init.d/cloud9
 ```
 
 Now make sure it starts when you boot the machine up:
 
 ```
-sudo update-rc.d c9ide defaults  
+sudo update-rc.d cloud9 defaults  
 ```
 
 
 Then start it up like so:
 ```
-sudo service c9ide start
+sudo service cloud9 start
 ```
 
 You should now be able to login directly with browser (localhost:80, or wherever you isntalled it!)

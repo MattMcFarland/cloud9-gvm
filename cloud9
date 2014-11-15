@@ -15,7 +15,8 @@ case "$1" in
   start)
     echo "cloud9 - START... "
     
-    sh /usr/bin/cloud9/bin/cloud9.sh -l 0.0.0.0 -p 80 </dev/null >/var/log/cloud-9.log 2>&1 &
+    sh /usr/bin/cloud9/bin/c9start.sh </dev/null >/var/log/cloud9.log 2>&1 &
+
 
     ;;
   stop)

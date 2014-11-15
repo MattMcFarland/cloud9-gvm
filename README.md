@@ -85,12 +85,8 @@ Then start it up like so:
 service c9ide start
 ```
 
-You should see this:
-```
-IDE server initialized. Listening on localhost:80
-```
+You should now be able to login directly with browser (localhost:80, or wherever you isntalled it!)
 
-But this isn't going to let us do much, since we are operating in the cloud and c9 by default runs only on the local host.  So hit `CTR+C` 
 
 #### Setup Authentication
 

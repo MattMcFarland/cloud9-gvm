@@ -97,7 +97,14 @@ chmod +x /etc/c9start.sh
 
 the `c9start.sh` file contains configuration settings for the server, including user authentication.  the default is as follows:
 
+```bash
+#!bin/bash
+# /etc/c9start.sh
+sh /usr/bin/cloud9/bin/cloud9.sh -l 0.0.0.0 -p 80 --username admin --password admin -w /home/c9
+```
 
+The first set of arguments -l 0.0.0.0 and -p 80 instruct cloud9 to run publicly on port 80 and accept any incoming ip address. 
+Be sure to **change** the username, password and the workspace folder (in option -w)
 
 
 Then start it up like so:

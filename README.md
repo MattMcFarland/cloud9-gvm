@@ -91,7 +91,7 @@ sudo update-rc.d c9ide defaults
 
 Then start it up like so:
 ```
-service c9ide start
+sudo service c9ide start
 ```
 
 You should now be able to login directly with browser (localhost:80, or wherever you isntalled it!)

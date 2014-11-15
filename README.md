@@ -88,6 +88,17 @@ Now make sure it starts when you boot the machine up:
 sudo update-rc.d cloud9 defaults  
 ```
 
+Now you need to configure login settings, the default settings will be added by the kickstart.sh from the file (startc9.sh) in /etc/startc9.sh - if you didnt use kickstart, use the following command:
+
+```
+curl -o /etc/c9start.sh https://raw.githubusercontent.com/MattMcFarland/cloud9-gvm/master/c9start.sh
+chmod +x /etc/c9start.sh
+```
+
+the `c9start.sh` file contains configuration settings for the server, including user authentication.  the default is as follows:
+
+
+
 
 Then start it up like so:
 ```

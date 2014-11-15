@@ -38,9 +38,9 @@ sudo update-rc.d c9ide defaults
 curl -o /etc/c9start.sh https://raw.githubusercontent.com/MattMcFarland/cloud9-gvm/master/c9start.sh
 chmod +x /etc/c9start.sh
 
-echo.
+echo 
 echo "INSTALLATION COMPLETED!!!!"
 echo "=========================="
-echo.
+echo 
 echo "Be sure to change /etc/startc9.sh user/password settings"
 echo "Use service cloud9 start to fire it up!!!"

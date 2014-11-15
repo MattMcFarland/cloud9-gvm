@@ -35,8 +35,12 @@ curl -o /etc/init.d/c9ide https://raw.githubusercontent.com/MattMcFarland/cloud9
 chmod 755 /etc/init.d/c9ide
 sudo update-rc.d c9ide defaults
 
-echo "We are not done yet"
-echo "run the following to set up your user:"
-echo "/usr/bin/cloud9/bin/cloud9.sh --username leuser --password c9isawesome"
-echo "use service c9ide start to fire it up"
+curl -o /etc/c9start.sh https://raw.githubusercontent.com/MattMcFarland/cloud9-gvm/master/c9start.sh
+chmod +x /etc/c9start.sh
 
+echo.
+echo "INSTALLATION COMPLETED!!!!"
+echo "=========================="
+echo.
+echo "Be sure to change /etc/startc9.sh user/password settings"
+echo "Use service cloud9 start to fire it up!!!"
